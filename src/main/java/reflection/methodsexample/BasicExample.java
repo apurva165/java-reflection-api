@@ -1,4 +1,4 @@
-package reflection.model;
+package reflection.methodsexample;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -6,9 +6,9 @@ import java.util.Arrays;
 
 public class BasicExample {
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException {
-        String personClassName = "reflection.model.Person";
+        String personClassName = "reflection.methodsexample.Person";
         //reflection method forName
-        Class<?> personClass = Class.forName("reflection.model.Person");
+        Class<?> personClass = Class.forName("reflection.methodsexample.Person");
 
         System.out.println(personClass);
 

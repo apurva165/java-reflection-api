@@ -1,34 +1,19 @@
-package reflection.persistence.model;
+package reflection.methodsexample;
 
-import reflection.persistence.annotaions.Column;
-import reflection.persistence.annotaions.PrimaryKey;
-
-public class Person {
-    @PrimaryKey
-    private long id;
-    @Column
+class Person {
     private String name;
-    @Column
     private int age;
-
-    public Person() {
-    }
 
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
-    private static Person of(String name, int age) {
+    public Person() {
+    }
+
+    public static Person of(String name, int age) {
         return new Person(name, age);
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
     }
 
     public String getName() {
@@ -50,8 +35,7 @@ public class Person {
     @Override
     public String toString() {
         return "Person{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
+                "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
     }

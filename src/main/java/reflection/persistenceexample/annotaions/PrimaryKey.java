@@ -1,4 +1,4 @@
-package reflection.persistence.annotaions;
+package reflection.persistenceexample.annotaions;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

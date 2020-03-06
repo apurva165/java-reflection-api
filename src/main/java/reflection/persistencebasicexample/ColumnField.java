@@ -1,4 +1,4 @@
-package reflection.persistence;
+package reflection.persistencebasicexample;
 
 import java.lang.reflect.Field;
 
@@ -9,4 +9,5 @@ public class ColumnField {
         this.field = field;
 
     }
+
 }

@@ -1,4 +1,4 @@
-package reflection.persistence;
+package reflection.persistencebasicexample;
 
 import java.lang.reflect.Field;
 

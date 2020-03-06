@@ -1,4 +1,4 @@
-package reflection.persistence.db;
+package reflection.persistenceexample.db;
 
 import org.h2.tools.Server;
 
